@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+       
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      
+        <meta name="description" content="" />
+        <!--  -->
+        <meta name="keywords" content="" />
+        
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+		
+        <title>测试</title>
+        <link type="text/css" rel="stylesheet" href="Content/css/pay.css"/>
+        <style>
+            
+        </style>
+
+        <script type="text/javascript" src="Content/js/jquery-3.2.1.min.js"></script>
+      	<!-- <script type="text/javascript" src="Content/js/check_help.js"></script> -->
+       <!--  <script type="text/javascript" src="Content/js/wx/jweixin-1.2.0.min.js"></script> -->
+        <script type="text/javascript" src="Content/js/util_help.min.js"></script>
+    </head>
+    <body>
+        <div class="wrappers">
+
+        <div class="wrap">
+            <div class="sub_title">
+                <p>某某商户</p>
+                <div class="portrait"><img src="Content/image/logo_200_85.png" alt="商户Logo"></div>
+            </div>
+            <form action="" class="edit_cash">
+               <!--  <p>金额</p> -->
+
+                <div class="shuru">
+                    <span>￥</span>
+                    <div id="total" class="place"  placeholder="请输入金额" ></div>
+                    <!-- <div contenteditable=true  autofocus="autofocus" id="total"></div> -->
+                   <!--  <input type="number" pattern="\d]*" id="total"> -->
+                    <!-- <label id="paymoney" type="text"></label> -->
+                </div>
+                <p>可询问工作人员应缴金额</p>
+                <input type="submit" value="付款" class="submit pays"   />
+                <div class="xiaozi">蜂付</div>
+            </form>
+            
+            <br/>
+            <div class="logo">
+                <img src="Content/image/logo_200_85.png" alt="商户Logo">
+            </div>
+        </div>
+        <div class="layer"></div>
+        <div class="layer-content">
+            <div class="btn"><div class="jiantou"></div></div>
+            <div class="form_edit clearfix">
+                <div class="num">1</div>
+                <div class="num">2</div>
+                <div class="num">3</div>
+                <div class="num">4</div>
+                <div class="num">5</div>
+                <div class="num">6</div>
+                <div class="num">7</div>
+                <div class="num">8</div>
+                <div class="num">9</div>
+                <div class="num">.</div>
+                <div class="num">0</div>
+                <div class="num" id="remove">
+                    <div></div>
+                    <!-- <img src="Content/image/delete_35_24.png" /> -->
+                </div>
+            </div>
+        </div>
+     </div>    
+     <script src="Content/js/ali/tool.js"></script>       
+      <script type="text/javascript" src="Content/js/ali/alipay_help.js"></script>
+      <script type="text/javascript" src="Content/js/ali/aliPayOrder.js?v=1.0"></script>
+        <script type="text/javascript" src="Content/js/ali/aliPayinte.js"></script>
+    </body>
+</html>
